@@ -1,5 +1,4 @@
-print("Hello, World!")
+from functions import function1
+result = function1(34)
 
-print("Hello Double World")
-
-print("Connected Office")
+print(f"Hello {result}")
